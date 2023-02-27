@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "participation_remotes",
+  "info": {
+    "singularName": "participation-remote",
+    "pluralName": "participation-remotes",
+    "displayName": "ParticipationRemote",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "account": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::account.account"
+    },
+    "confirmed": {
+      "type": "boolean",
+      "default": false
+    },
+    "sessions": {
+      "type": "customField",
+      "options": [
+        "work",
+        "education",
+        "healthcare"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "participated": {
+      "type": "customField",
+      "options": [
+        "work",
+        "education",
+        "healthcare"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "fullname_ar": {
+      "type": "string"
+    },
+    "job_title": {
+      "type": "string"
+    },
+    "entity": {
+      "type": "string"
+    },
+    "honorific_title": {
+      "type": "string"
+    }
+  }
+}
