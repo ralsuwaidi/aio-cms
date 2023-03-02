@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chq_profiles",
+  "info": {
+    "singularName": "chq-profile",
+    "pluralName": "chq-profiles",
+    "displayName": "ChqProfile"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female"
+      ]
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "academic_qualification": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "is_seeking_job": {
+      "type": "boolean",
+      "default": false
+    },
+    "is_working": {
+      "type": "boolean",
+      "default": false
+    },
+    "employer": {
+      "type": "string"
+    },
+    "years_experience": {
+      "type": "integer",
+      "min": 0
+    },
+    "github": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "personal_site": {
+      "type": "string"
+    },
+    "about": {
+      "type": "richtext"
+    },
+    "proud_project": {
+      "type": "richtext"
+    },
+    "user_id": {
+      "type": "integer",
+      "min": 0
+    }
+  }
+}
