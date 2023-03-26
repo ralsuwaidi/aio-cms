@@ -4,7 +4,8 @@
   "info": {
     "singularName": "chq-profile",
     "pluralName": "chq-profiles",
-    "displayName": "ChqProfile"
+    "displayName": "ChqProfile",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -60,6 +61,12 @@
     "user_id": {
       "type": "integer",
       "min": 0
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
     }
   }
 }
