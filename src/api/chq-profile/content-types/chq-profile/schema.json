@@ -67,6 +67,9 @@
     },
     "last_name": {
       "type": "string"
+    },
+    "codershq_id": {
+      "type": "string"
     }
   }
 }
