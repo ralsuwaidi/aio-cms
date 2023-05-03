@@ -69,7 +69,9 @@
       "type": "string"
     },
     "codershq_id": {
-      "type": "string"
+      "type": "string",
+      "unique": true,
+      "required": true
     }
   }
 }
