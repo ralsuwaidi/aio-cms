@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "assessment_landing_pages",
+  "info": {
+    "singularName": "assessment-landing-page",
+    "pluralName": "assessment-landing-pages",
+    "displayName": "Assessment LandingPage"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

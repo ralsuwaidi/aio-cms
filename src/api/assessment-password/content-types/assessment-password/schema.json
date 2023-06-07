@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assessment_passwords",
+  "info": {
+    "singularName": "assessment-password",
+    "pluralName": "assessment-passwords",
+    "displayName": "Assessment Password",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
